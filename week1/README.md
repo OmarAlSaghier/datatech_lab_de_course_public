@@ -20,7 +20,7 @@ By the end of this workshop, you will be able to:
     - File I/O
 
 - **Part 2: SQL Basics**
-  - Open the `sql/sql_for_data_engineers.md` file in VSCode.
+  - Open the `sql/sql_for_data_engineers.ipynb` file in VSCode.
   - The file has many execises and examples to help you learn SQL basics, including:
     - Introduction to SQL
     - Data definition (CREATE, ALTER, DROP)
