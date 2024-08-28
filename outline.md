@@ -44,7 +44,7 @@ Reading: "Data Model Patterns: Conventions of Thought" by David C. Hay (Chapters
 
 Reading: "Building Data Pipelines with Python" by Kirrill Pomogajko (Chapters 1-4)
 
-(2) Week 4: Introduction to Distributed Computing
+(2) Week 4: Introduction to Big Data & Distributed Computing
 - Principles of distributed systems
 - The Hadoop ecosystem: HDFS, MapReduce, YARN
 - Introduction to Apache Spark
