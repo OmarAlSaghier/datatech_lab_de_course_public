@@ -84,6 +84,21 @@ Reading: "Learning Spark" by Jules S. Damji et al. (Chapters 1-5)
 
 Reading: "Kafka: The Definitive Guide" by Neha Narkhede et al. (Chapters 1-4)
 
+(5) Week X: Data Automation and Orchestration
+- Workflow automation with Apache Airflow
+- Job scheduling and monitoring
+- Data pipeline orchestration best practices
+- Hands-on: Building and scheduling data workflows with Airflow
+
+Reading: "Data Pipelines Pocket Reference" by Christopher Groskopf (Chapters 1-3)
+
+(5) Week Y: Data Visualization and Reporting
+- Data Visualization Principles
+- Reporting Tools (Tableau, Power BI)
+- Create effective data visualizations.
+- Use reporting tools for data presentation.
+Readings: Tutorials on Tableau or Power BI
+
 Week 9: Data Governance and Security
 - Data governance frameworks and best practices
 - Data security and privacy considerations
@@ -92,7 +107,7 @@ Week 9: Data Governance and Security
 
 Reading: "Data Governance: How to Design, Deploy, and Sustain an Effective Data Governance Program" by John Ladley (Chapters 1-3)
 
-Week 10: Cloud-based Big Data Services
+(6) Week 10: Cloud-based Big Data Services
 - Overview of cloud computing for big data
 - Amazon Web Services (AWS) big data services
 - Google Cloud Platform (GCP) big data services
@@ -162,4 +177,3 @@ Instructor will be available for virtual office hours twice a week to address st
 
 This syllabus provides a comprehensive overview of a Data Engineering / Big Data Engineering course. It's designed to progressively build knowledge and skills, starting with fundamentals and moving to more advanced topics. The course incorporates a mix of theoretical knowledge and practical, hands-on experience with current industry tools and technologies. Regular assessments and a final project ensure that students can apply their learning to real-world scenarios.
 
-Would you like me to elaborate on any specific aspect of the syllabus?
