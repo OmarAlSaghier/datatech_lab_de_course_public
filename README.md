@@ -1,4 +1,4 @@
-# DataTech Labs representing a Data Engineering Course
+# DataTech Labs Representing a "Data Engineering" Course
 This repository contains the course materials for a Data Engineering course. The course is designed to provide students with hands-on experience in data engineering, including Python programming, SQL, and data processing. The course is divided into several modules, each covering a different aspect of data engineering.
 
 ![DataTech Labs](images/datatech_labs_logo.png)
