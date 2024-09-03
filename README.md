@@ -7,11 +7,19 @@ This repository contains the course materials for a Data Engineering course. The
 Course Title: Foundations of Data Engineering and Big Data Systems
 
 The course is divided into the following modules:
-- [Week 1: Hands-On Introduction to Data Engineering](week1/README.md)
+- [Week 1: Introduction to Data Engineering & Data Modeling](week1/README.md)
+- [Week 2: Data Pipelines and Big Data Processing](week2/README.md)
+- [Week 3: Modern Data Architectures: Data Warehousing and Data Lakes](week3/README.md)
+- [Week 4: Advanced Data Processing with Spark and Streaming Data](week4/README.md)
+- [Week 5: Data Automation, Orchestration and Visualization](week5/README.md)
+- [Week 6: Cloud-Based Big Data Services](week6/README.md)
+- [Week 7: Project Week](week7/README.md)
 
 
 Course Description:
 This comprehensive course introduces students to the principles and practices of data engineering and big data systems. Students will learn to design, implement, and maintain large-scale data processing systems, gaining hands-on experience with industry-standard tools and technologies. The course covers data modeling, ETL processes, distributed computing, data warehousing, and real-time data processing.
+
+Course Duration: 7-8 weeks
 
 Learning Objectives:
 By the end of this course, students will be able to:
@@ -20,15 +28,13 @@ By the end of this course, students will be able to:
 3. Work with distributed computing frameworks like Hadoop and Spark
 4. Develop skills in data modeling and database design for big data systems
 5. Implement and manage data warehouses and data lakes
-6. Apply best practices for data governance, security, and quality management
+6. Understand and implement real-time data processing systems
 7. Utilize cloud-based big data services and technologies
-8. Understand and implement real-time data processing systems
-
-Course Duration: 7-8 weeks
+8. Develop a comprehensive big data project for a real-world problem
 
 Weekly Breakdown:
 
-### Week 1:
+### Week 1: Introduction to Data Engineering & Data Modeling
 - Introduction to Data Engineering
     - Overview of data engineering and its importance
     - The data engineering ecosystem and toolchain
@@ -46,7 +52,7 @@ Weekly Breakdown:
     Reading: "Data Model Patterns: Conventions of Thought" by David C. Hay (Chapters 1-3)
 
 
-### Week 2:
+### Week 2: Data Pipelines and Big Data Processing
 - ETL Processes and Data Pipelines
     - Understanding Extract, Transform, Load (ETL) processes
     - Designing efficient data pipelines
@@ -64,7 +70,7 @@ Weekly Breakdown:
     Reading: "Hadoop: The Definitive Guide" by Tom White (Chapters 1-3)
 
 
-### Week 3:
+### Week 3: Modern Data Architectures: Data Warehousing and Data Lakes
 - Data Warehousing and OLAP
     - Data warehouse architectures and design principles
     - Dimensional modeling and star schemas
@@ -82,7 +88,7 @@ Weekly Breakdown:
     Reading: "Data Lakes for Dummies" by Alan R. Simon (Chapters 1-5)
 
 
-### Week 4:
+### Week 4: Advanced Data Processing with Spark and Streaming Data
 - Advanced Spark Programming
     - Spark RDDs, DataFrames, and Datasets
     - Spark SQL and analytics
@@ -100,7 +106,7 @@ Weekly Breakdown:
     Reading: "Kafka: The Definitive Guide" by Neha Narkhede et al. (Chapters 1-4)
 
 
-### Week 5:
+### Week 5: Data Automation, Orchestration and Visualization
 - Data Automation and Orchestration
     - Workflow automation with Apache Airflow
     - Job scheduling and monitoring
@@ -118,7 +124,7 @@ Weekly Breakdown:
     Readings: Tutorials on Tableau or Power BI
 
 
-### Week 6:
+### Week 6: Cloud-Based Big Data Services
 - Cloud-based Big Data Services
     - Overview of cloud computing for big data
     - Amazon Web Services (AWS) big data services
@@ -128,13 +134,14 @@ Weekly Breakdown:
     Reading: "Big Data Analytics on Cloud" by Pethuru Raj et al. (Chapters 1-4)
 
 
-### Week 7: Project Weeks
+### Week 7: Project Week
 - Course Project Presentations and Review
     - Student project presentations
     - Course review and future learning paths
     - Industry guest speaker session
 
 
+---------------------------------------------------------------------------------------
 ## Extra Weeks:
 Week 9: Data Governance and Security
 - Data governance frameworks and best practices
