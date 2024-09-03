@@ -26,3 +26,15 @@ By the end of this workshop, you will be able to:
     - Data definition (CREATE, ALTER, DROP)
     - Data manipulation (INSERT, UPDATE, DELETE)
     - Data querying (SELECT, WHERE, GROUP BY, JOIN)
+
+- **Part 3: NoSQL Databases**
+  - Read the `nosql/nosql_databases.md` file in VSCode.
+  - The file provides an overview of NoSQL databases and how they differ from traditional SQL databases.
+
+Running the docker compose file:
+```
+docker compose \
+  -f course_hands_on/week1/sql/docker_compose.yml \
+  --project-name datatech_de_course \
+  up -d
+```
