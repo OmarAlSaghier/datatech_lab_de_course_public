@@ -2,10 +2,8 @@ from datetime import datetime
 import pandas as pd
 
 
-def transform_db_data(data, db_conn):
+def transform_db_data(data, dest_cursor):
     try:
-        # Creating up the cursor
-        dest_cursor = db_conn.cursor()
         # Created destination table
         dest_cursor.execute(
             """CREATE TABLE IF NOT EXISTS dest_table(
@@ -36,10 +34,7 @@ def transform_db_data(data, db_conn):
         data = data[data["year_of_manufacture"] <= current_year]
         print(f"data shape after is: {data.shape}")
         
-        return data, db_conn
+        return data
 
     except Exception as exp:
         return(f"Error occured in load batches: {exp}")
-    
-    finally:
-        db_conn.commit()
