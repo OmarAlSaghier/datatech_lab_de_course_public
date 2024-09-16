@@ -33,6 +33,6 @@ Running the docker compose file:
 ```
 docker compose \
   -f week1/sql/docker_compose.yml \
-  --project-name datatech_de_course \
+  --project-name datatech_de_course_week1 \
   up -d
 ```
