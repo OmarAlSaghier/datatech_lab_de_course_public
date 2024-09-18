@@ -1,0 +1,56 @@
+version: '3'
+
+services:
+  namenode:
+    image: bde2020/hadoop-namenode:2.0.0-hadoop3.2.1-java8
+    container_name: namenode
+    environment:
+      - CLUSTER_NAME=test
+    ports:
+      - "9870:9870"  # HDFS web UI
+      - "9000:9000"  # HDFS namenode service
+    volumes:
+      - namenode:/hadoop/dfs/name
+    networks:
+      - hadoop
+
+  datanode:
+    image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
+    container_name: datanode
+    environment:
+      - CLUSTER_NAME=test
+      - NAMENODE_HOST=namenode
+    depends_on:
+      - namenode
+    ports:
+      - "9864:9864"  # HDFS datanode web UI
+    volumes:
+      - datanode:/hadoop/dfs/data
+    networks:
+      - hadoop
+
+  resourcemanager:
+    image: bde2020/hadoop-resourcemanager:2.0.0-hadoop3.2.1-java8
+    container_name: resourcemanager
+    depends_on:
+      - namenode
+    ports:
+      - "8088:8088"  # YARN resource manager UI
+    networks:
+      - hadoop
+
+  nodemanager:
+    image: bde2020/hadoop-nodemanager:2.0.0-hadoop3.2.1-java8
+    container_name: nodemanager
+    depends_on:
+      - resourcemanager
+    networks:
+      - hadoop
+
+volumes:
+  namenode:
+  datanode:
+
+networks:
+  hadoop:
+    driver: bridge
