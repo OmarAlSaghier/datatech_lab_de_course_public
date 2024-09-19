@@ -9,7 +9,7 @@ Course Title: Foundations of Data Engineering and Big Data Systems
 The course is divided into the following modules:
 - [Week 1: Introduction to Data Engineering & Data Modeling](week1/README.md)
 - [Week 2: Data Pipelines and Big Data Processing](week2/README.md)
-- [Week 3: Modern Data Architectures: Data Warehousing and Data Lakes](week3/README.md)
+- [Week 3: Modern Data Architectures: Data Lakes and Data Warehousing](week3/README.md)
 - [Week 4: Advanced Data Processing with Spark and Streaming Data](week4/README.md)
 - [Week 5: Data Automation, Orchestration and Visualization](week5/README.md)
 - [Week 6: Cloud-Based Big Data Services](week6/README.md)
@@ -70,22 +70,22 @@ Weekly Breakdown:
     Reading: "Hadoop: The Definitive Guide" by Tom White (Chapters 1-3)
 
 
-### Week 3: Modern Data Architectures: Data Warehousing and Data Lakes
-- Data Warehousing and OLAP
-    - Data warehouse architectures and design principles
-    - Dimensional modeling and star schemas
-    - OLAP concepts and cube operations
-    - Hands-on: Designing and implementing a simple data warehouse
-
-    Reading: "The Data Warehouse Toolkit" by Ralph Kimball and Margy Ross (Chapters 1-4)
-
-- Data Lakes and Modern Data Architectures
+### Week 3: Modern Data Architectures: Data Lakes and Data Warehousing
+- Data Lakes Design and Implementation
     - Understanding data lakes and their benefits
     - Data lake design patterns and best practices
     - Introduction to Delta Lake and data lakehouse concept
     - Hands-on: Setting up a data lake using cloud storage
 
     Reading: "Data Lakes for Dummies" by Alan R. Simon (Chapters 1-5)
+
+- Data Warehousing and Modern Data Architectures
+    - Data warehouse architectures and design principles
+    - Dimensional modeling and star schemas
+    - OLAP concepts and cube operations
+    - Hands-on: Designing and implementing a simple data warehouse
+
+    Reading: "The Data Warehouse Toolkit" by Ralph Kimball and Margy Ross (Chapters 1-4)
 
 
 ### Week 4: Advanced Data Processing with Spark and Streaming Data
