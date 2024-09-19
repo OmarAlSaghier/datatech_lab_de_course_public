@@ -1,0 +1,6 @@
+product_id,product_name,category,price
+101,Laptop,Electronics,1000.0
+102,Smartphone,Electronics,800.0
+103,Tablet,Electronics,300.0
+104,Headphones,Accessories,100.0
+105,Smartwatch,Accessories,200.0

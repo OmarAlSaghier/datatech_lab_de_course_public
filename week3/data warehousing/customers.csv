@@ -1,0 +1,7 @@
+customer_id,customer_name,customer_email,customer_phone,customer_address
+1,John Doe,john@example.com,1234567890,123 Main St
+2,Jane Smith,jane@example.com,0987654321,456 Oak St
+3,Alice Johnson,alice@example.com,2345678901,789 Pine St
+4,Bob Brown,bob@example.com,3456789012,101 Maple Ave
+5,Charlie White,charlie@example.com,4567890123,202 Birch Blvd
+
