@@ -1,9 +1,9 @@
 product_id,product_name,category,price
-1,Product_1,Toys,138.51
-2,Product_2,Electronics,11.04
-3,Product_3,Electronics,219.16
-4,Product_4,Home,366.74
-5,Product_5,Books,294.48
+1,Laptop,Electronics,1000.0
+2,Smartphone,Electronics,800.0
+3,Tablet,Electronics,300.0
+4,Headphones,Accessories,100.0
+5,Smartwatch,Accessories,200.0
 6,Product_6,Toys,490.02
 7,Product_7,Home,177.53
 8,Product_8,Toys,414.93

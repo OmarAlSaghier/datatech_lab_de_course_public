@@ -1,7 +1,7 @@
 store_id,store_name,store_city,store_state
-1,Store_1,Chicago,CA
-2,Store_2,New York,FL
-3,Store_3,San Francisco,IL
+1,Store A,New York,NY
+2,Store B,San Francisco,CA
+3,Store C,Chicago,IL
 4,Store_4,Miami,NY
 5,Store_5,Austin,NY
 6,Store_6,Miami,IL

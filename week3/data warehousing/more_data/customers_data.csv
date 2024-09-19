@@ -1,9 +1,9 @@
 customer_id,customer_name,customer_email,customer_phone,customer_address
-1,Customer_1,customer1@retail.com,+1-202-4005815,Address_1
-2,Customer_2,customer2@retail.com,+1-202-9206276,Address_2
-3,Customer_3,customer3@retail.com,+1-202-8821154,Address_3
-4,Customer_4,customer4@retail.com,+1-202-1519136,Address_4
-5,Customer_5,customer5@retail.com,+1-202-6825643,Address_5
+1,John Doe,john@example.com,1234567890,123 Main St
+2,Jane Smith,jane@example.com,0987654321,456 Oak St
+3,Alice Johnson,alice@example.com,2345678901,789 Pine St
+4,Bob Brown,bob@example.com,3456789012,101 Maple Ave
+5,Charlie White,charlie@example.com,4567890123,202 Birch Blvd
 6,Customer_6,customer6@retail.com,+1-202-9406819,Address_6
 7,Customer_7,customer7@retail.com,+1-202-4928495,Address_7
 8,Customer_8,customer8@retail.com,+1-202-3838766,Address_8
