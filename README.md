@@ -9,7 +9,7 @@ Course Title: Foundations of Data Engineering and Big Data Systems
 The course is divided into the following modules:
 - [Week 1: Introduction to Data Engineering & Data Modeling](week1/README.md)
 - [Week 2: Data Pipelines and Big Data Processing](week2/README.md)
-- [Week 3: Modern Data Architectures: Data Lakes and Data Warehousing](week3/README.md)
+- [Week 3: Data Lakes and Data Warehousing With Modern Data Architectures](week3/README.md)
 - [Week 4: Advanced Data Processing with Spark and Streaming Data](week4/README.md)
 - [Week 5: Data Automation, Orchestration and Visualization](week5/README.md)
 - [Week 6: Cloud-Based Big Data Services](week6/README.md)
@@ -70,7 +70,7 @@ Weekly Breakdown:
     Reading: "Hadoop: The Definitive Guide" by Tom White (Chapters 1-3)
 
 
-### Week 3: Modern Data Architectures: Data Lakes and Data Warehousing
+### Week 3: Data Lakes and Data Warehousing With Modern Data Architectures
 - Data Lakes Design and Implementation
     - Understanding data lakes and their benefits
     - Data lake design patterns and best practices
