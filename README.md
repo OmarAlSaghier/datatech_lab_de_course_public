@@ -10,7 +10,7 @@ The course is divided into the following modules:
 - [Week 1: Introduction to Data Engineering & Data Modeling](week1/README.md)
 - [Week 2: Data Pipelines and Big Data Processing](week2/README.md)
 - [Week 3: Data Lakes and Data Warehousing With Modern Data Architectures](week3/README.md)
-- [Week 4: Advanced Data Processing with Spark and Streaming Data](week4/README.md)
+- [Week 4: Advanced Data Processing with Spark and Streaming Pipelines](week4/README.md)
 - [Week 5: Data Automation, Orchestration and Visualization](week5/README.md)
 - [Week 6: Cloud-Based Big Data Services](week6/README.md)
 - [Week 7: Project Week](week7/README.md)
@@ -88,7 +88,7 @@ Weekly Breakdown:
     Reading: "The Data Warehouse Toolkit" by Ralph Kimball and Margy Ross (Chapters 1-4)
 
 
-### Week 4: Advanced Data Processing with Spark and Streaming Data
+### Week 4: Advanced Data Processing with Spark and Streaming Pipelines
 - Advanced Spark Programming
     - Spark RDDs, DataFrames, and Datasets
     - Spark SQL and analytics
@@ -100,6 +100,7 @@ Weekly Breakdown:
 - Streaming Data Processing
     - Introduction to stream processing concepts
     - Apache Kafka for real-time data ingestion
+    - Stream processing with Spark-Streaming
     - Stream processing with Apache Flink
     - Hands-on: Implementing a real-time data pipeline with Kafka and Flink
 
