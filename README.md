@@ -1,10 +1,14 @@
 # DataTech Labs Representing a "Data Engineering" Course
 This repository contains the course materials for a Data Engineering course. The course is designed to provide students with hands-on experience in data engineering, including Python programming, SQL, and data processing. The course is divided into several modules, each covering a different aspect of data engineering.
 
-![DataTech Labs](images/datatech_labs_logo.png)
+<div style="text-align: center;">
+    <img src="images/datatech_labs_logo.png" alt="DataTech Labs" width="600" height="400">
+</div>
 
 ## Course Description
 **Course Title**: Foundations of Data Engineering and Big Data Systems
+
+This comprehensive course introduces students to the principles and practices of data engineering and big data systems. Students will learn to design, implement, and maintain large-scale data processing systems, gaining hands-on experience with industry-standard tools and technologies. The course covers data modeling, ETL processes, distributed computing, data warehousing, and real-time data processing.
 
 The course is divided into the following modules:
 - [Week 1: Introduction to Data Engineering & Data Modeling](week1/README.md)
@@ -14,9 +18,6 @@ The course is divided into the following modules:
 - [Week 5: Data Automation, Orchestration and Visualization](week5/README.md)
 - [Week 6: Cloud-Based Big Data Services](week6/README.md)
 - [Week 7: Project Week](week7/README.md)
-
-
-This comprehensive course introduces students to the principles and practices of data engineering and big data systems. Students will learn to design, implement, and maintain large-scale data processing systems, gaining hands-on experience with industry-standard tools and technologies. The course covers data modeling, ETL processes, distributed computing, data warehousing, and real-time data processing.
 
 
 ### **Learning Objectives**:
