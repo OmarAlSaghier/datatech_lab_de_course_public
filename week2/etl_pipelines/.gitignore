@@ -1,5 +1,0 @@
-# remove __pycache__ folder
-src/__pycache__/
-src/extract/__pycache__/
-src/load/__pycache__/
-src/transform/__pycache__/
