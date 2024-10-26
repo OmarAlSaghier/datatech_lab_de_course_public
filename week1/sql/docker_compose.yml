@@ -13,7 +13,7 @@ services:
       #  - ./src_data.csv:/data/src_data/src_data.csv
       #  - ./create_seed_data.sql:/docker-entrypoint-initdb.d/create_tables.sql
     ports:
-      - "5432:5432"
+      - "5433:5432"
     restart: unless-stopped
 
   mongodb:
