@@ -9,11 +9,19 @@ HADOOP_URL="https://dlcdn.apache.org/hadoop/common/hadoop-${HADOOP_VERSION}/hado
 HADOOP_INSTALL_DIR="/opt/hadoop"
 HADOOP_USER=$(whoami)
 
-Step 1: Create directory for Hadoop and download it
-# mkdir -p ~/hadoop_cluster 
+# Step 0: Set up passwordless SSH
+echo "Setting up passwordless SSH as a prerequisite..."
+# Remove the comment from the below line if you already have a generated SSH key
+# ssh-keygen -t rsa -P "" -f ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+chmod 0600 ~/.ssh/authorized_keys
+ssh-keyscan -H localhost >> ~/.ssh/known_hosts
+
+# Step 1: Create directory for Hadoop and download it
+mkdir -p ~/hadoop_cluster 
 cd ~/hadoop_cluster
-# echo "Downloading Hadoop..."
-# wget $HADOOP_URL
+echo "Downloading Hadoop..."
+wget $HADOOP_URL
 
 # Step 2: Extract Hadoop and move to /opt
 echo "Extracting Hadoop..."
@@ -68,38 +76,28 @@ export PATH=\$PATH:\$HADOOP_HOME/bin:\$HADOOP_HOME/sbin
 " >> ~/.bashrc
 source ~/.bashrc
 
-#######
 # Step 6: Update JAVA_HOME in hadoop-env.sh
 echo "Configuring JAVA_HOME in hadoop-env.sh..."
-sudo sed -i "/^export JAVA_HOME=/c\export JAVA_HOME=${JAVA_HOME_PATH}" /opt/hadoop/etc/hadoop/hadoop-env.sh
-sudo sed -i "/^#.*JAVA_HOME=.*/a export HADOOP_OS_TYPE=\${HADOOP_OS_TYPE:-\$(uname -s)}" /opt/hadoop/etc/hadoop/hadoop-env.sh
+sudo sed -i "/^#.*JAVA_HOME=.*/c\export JAVA_HOME=${JAVA_HOME_PATH}\nexport HADOOP_OS_TYPE=\${HADOOP_OS_TYPE:-\$(uname -s)}" /opt/hadoop/etc/hadoop/hadoop-env.sh
 
 # Step 7: Format HDFS
 echo "Formatting HDFS..."
 hdfs namenode -format
-#######
 
-# Step 8: Set up passwordless SSH
-echo "Setting up passwordless SSH..."
-# ssh-keygen -t rsa -P "" -f ~/.ssh/id_rsa
-cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
-chmod 0600 ~/.ssh/authorized_keys
-ssh-keyscan -H localhost >> ~/.ssh/known_hosts
-
-# Step 9: Start HDFS
+# Step 8: Start HDFS
 echo "Starting HDFS..."
 start-dfs.sh
 
-# Step 10: Verify HDFS components are running
+# Step 9: Verify HDFS components are running
 echo "Verifying HDFS components..."
 jps
 
-# Step 11: Create user in HDFS
+# Step 10: Create user in HDFS
 echo "Creating user directory in HDFS..."
 hdfs dfs -mkdir -p /user/datatech-labs
 hdfs dfs -ls /user/
 
-# Step 12: Configure yarn-site.xml
+# Step 11: Configure yarn-site.xml
 echo "Configuring yarn-site.xml..."
 cat <<EOF | sudo tee /opt/hadoop/etc/hadoop/yarn-site.xml > /dev/null
 <configuration>
@@ -114,7 +112,7 @@ cat <<EOF | sudo tee /opt/hadoop/etc/hadoop/yarn-site.xml > /dev/null
 </configuration>
 EOF
 
-# Step 13: Configure mapred-site.xml
+# Step 12: Configure mapred-site.xml
 echo "Configuring mapred-site.xml..."
 cat <<EOF | sudo tee /opt/hadoop/etc/hadoop/mapred-site.xml > /dev/null
 <configuration>
@@ -129,11 +127,11 @@ cat <<EOF | sudo tee /opt/hadoop/etc/hadoop/mapred-site.xml > /dev/null
 </configuration>
 EOF
 
-# Step 14: Start YARN
+# Step 13: Start YARN
 echo "Starting YARN..."
 start-yarn.sh
 
-# Step 15: Verify YARN components
+# Step 14: Verify YARN components
 echo "Verifying YARN components..."
 jps
 
