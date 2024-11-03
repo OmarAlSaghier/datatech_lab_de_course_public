@@ -11,8 +11,13 @@ HADOOP_USER=$(whoami)
 
 # Step 0: Set up passwordless SSH
 echo "Setting up passwordless SSH as a prerequisite..."
-# Remove the comment from the below line if you already have a generated SSH key
-# ssh-keygen -t rsa -P "" -f ~/.ssh/id_rsa
+# Check if the SSH key already exists
+if [ ! -f ~/.ssh/id_rsa ]; then
+    echo "SSH key not found. Generating a new SSH key..."
+    ssh-keygen -t rsa -P "" -f ~/.ssh/id_rsa
+else
+    echo "Existing SSH key found. Skipping key generation."
+fi
 cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
 chmod 0600 ~/.ssh/authorized_keys
 ssh-keyscan -H localhost >> ~/.ssh/known_hosts
