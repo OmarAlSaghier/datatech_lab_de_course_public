@@ -1,0 +1,11 @@
+product_id,product_name,category,price
+1,Laptop,Electronics,1500
+2,Wireless Mouse,Accessories,25
+3,Monitor,Electronics,200
+4,Keyboard,Accessories,40
+5,External Hard Drive,Storage,120
+6,USB-C Adapter,Accessories,20
+7,HDMI Cable,Accessories,10
+8,Tablet,Electronics,250
+9,Portable Charger,Accessories,30
+10,Headphones,Accessories,80

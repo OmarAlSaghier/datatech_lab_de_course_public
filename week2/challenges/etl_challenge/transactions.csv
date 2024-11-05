@@ -1,0 +1,11 @@
+transaction_id,customer_id,transaction_date,amount,product
+1001,1,2023-09-10,150.00,Laptop
+1002,2,2023-09-11,35.50,Wireless Mouse
+1003,3,2023-09-15,220.00,Monitor
+1004,4,2023-09-16,79.99,Keyboard
+1005,5,2023-09-17,120.00,External Hard Drive
+1006,6,2023-09-20,49.99,USB-C Adapter
+1007,7,2023-09-22,15.99,HDMI Cable
+1008,8,2023-09-25,199.99,Tablet
+1009,9,2023-09-28,59.99,Portable Charger
+1010,10,2023-09-30,75.00,Headphones
