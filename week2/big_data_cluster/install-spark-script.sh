@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Define variables
-SPARK_VERSION="3.2.3"
-HADOOP_VERSION="3.2"
+SPARK_VERSION="3.5.3"
+HADOOP_VERSION="3"
 INSTALL_DIR="/opt"
 HADOOP_HOME="/opt/hadoop"
 SPARK_HOME="/opt/spark"
