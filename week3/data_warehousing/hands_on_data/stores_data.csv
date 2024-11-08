@@ -1,0 +1,101 @@
+store_id,store_name,store_city,store_state
+1,Store A,New York,NY
+2,Store B,San Francisco,CA
+3,Store C,Chicago,IL
+4,Store_4,Miami,NY
+5,Store_5,Austin,NY
+6,Store_6,Miami,IL
+7,Store_7,Austin,TX
+8,Store_8,Chicago,FL
+9,Store_9,Austin,NY
+10,Store_10,Chicago,IL
+11,Store_11,New York,NY
+12,Store_12,Chicago,NY
+13,Store_13,Miami,TX
+14,Store_14,Miami,CA
+15,Store_15,Chicago,FL
+16,Store_16,Chicago,IL
+17,Store_17,Chicago,IL
+18,Store_18,New York,TX
+19,Store_19,Austin,IL
+20,Store_20,New York,FL
+21,Store_21,Austin,NY
+22,Store_22,New York,CA
+23,Store_23,Miami,FL
+24,Store_24,San Francisco,NY
+25,Store_25,San Francisco,TX
+26,Store_26,Chicago,IL
+27,Store_27,Austin,NY
+28,Store_28,Chicago,IL
+29,Store_29,Chicago,IL
+30,Store_30,Miami,FL
+31,Store_31,New York,CA
+32,Store_32,Miami,NY
+33,Store_33,Miami,NY
+34,Store_34,Miami,FL
+35,Store_35,Chicago,NY
+36,Store_36,San Francisco,FL
+37,Store_37,Miami,TX
+38,Store_38,Chicago,IL
+39,Store_39,Austin,TX
+40,Store_40,New York,CA
+41,Store_41,Miami,FL
+42,Store_42,Chicago,TX
+43,Store_43,New York,NY
+44,Store_44,Chicago,NY
+45,Store_45,San Francisco,FL
+46,Store_46,Chicago,NY
+47,Store_47,Miami,CA
+48,Store_48,Miami,NY
+49,Store_49,Austin,NY
+50,Store_50,Miami,FL
+51,Store_51,Austin,TX
+52,Store_52,Chicago,CA
+53,Store_53,Miami,NY
+54,Store_54,San Francisco,NY
+55,Store_55,San Francisco,FL
+56,Store_56,New York,TX
+57,Store_57,New York,IL
+58,Store_58,New York,NY
+59,Store_59,New York,NY
+60,Store_60,Miami,IL
+61,Store_61,Miami,IL
+62,Store_62,Austin,IL
+63,Store_63,New York,TX
+64,Store_64,San Francisco,TX
+65,Store_65,Miami,IL
+66,Store_66,Miami,IL
+67,Store_67,New York,FL
+68,Store_68,San Francisco,TX
+69,Store_69,Chicago,IL
+70,Store_70,New York,CA
+71,Store_71,Chicago,IL
+72,Store_72,Miami,FL
+73,Store_73,Austin,FL
+74,Store_74,Chicago,FL
+75,Store_75,Miami,CA
+76,Store_76,San Francisco,FL
+77,Store_77,San Francisco,NY
+78,Store_78,Chicago,TX
+79,Store_79,Austin,FL
+80,Store_80,Miami,TX
+81,Store_81,Austin,CA
+82,Store_82,Austin,FL
+83,Store_83,New York,FL
+84,Store_84,Chicago,FL
+85,Store_85,Austin,FL
+86,Store_86,Austin,IL
+87,Store_87,Chicago,CA
+88,Store_88,San Francisco,FL
+89,Store_89,San Francisco,NY
+90,Store_90,Miami,NY
+91,Store_91,New York,CA
+92,Store_92,San Francisco,CA
+93,Store_93,Austin,NY
+94,Store_94,Chicago,IL
+95,Store_95,San Francisco,TX
+96,Store_96,San Francisco,IL
+97,Store_97,San Francisco,IL
+98,Store_98,New York,FL
+99,Store_99,New York,NY
+100,Store_100,Austin,IL
