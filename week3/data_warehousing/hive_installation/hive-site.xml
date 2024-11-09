@@ -566,7 +566,7 @@
   </property>
   <property>
     <name>javax.jdo.option.ConnectionPassword</name>
-    <value>postgres</value>
+    <value>hive</value>
     <description>the password for the DB instance</description>
   </property>
   <property>
@@ -1120,7 +1120,7 @@
   </property>
   <property>
     <name>javax.jdo.option.ConnectionUserName</name>
-    <value>postgres</value>
+    <value>hive</value>
     <description>the username for the DB instance</description>
   </property>
   <property>
