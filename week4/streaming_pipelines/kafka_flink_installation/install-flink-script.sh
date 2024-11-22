@@ -12,7 +12,7 @@ FLINK_SERVICE_FILE="/etc/systemd/system/flink.service"
 echo "Downloading Apache Flink..."
 mkdir -p ~/hadoop_cluster
 cd ~/hadoop_cluster
-# wget ${FLINK_DOWNLOAD_URL} -O ${FLINK_ARCHIVE} || { echo "Download failed. Exiting."; exit 1; }
+wget ${FLINK_DOWNLOAD_URL} -O ${FLINK_ARCHIVE} || { echo "Download failed. Exiting."; exit 1; }
 
 # Step 2: Extract Flink archive
 echo "Extracting Apache Flink..."
