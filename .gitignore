@@ -1,18 +1,31 @@
 de_env/
 test_course_env/
+airflow_venv/
 
 .DS_Store
 week1/python/data.txt
-week2/etl_pipelines/src/__pycache__/__init__.cpython-310.pyc
-week2/etl_pipelines/src/extract/__pycache__/__init__.cpython-310.pyc
-week2/etl_pipelines/src/extract/__pycache__/extract_batch.cpython-310.pyc
-week2/etl_pipelines/src/extract/__pycache__/extract_db.cpython-310.pyc
-week2/etl_pipelines/src/extract/__pycache__/extract_files.cpython-310.pyc
-week2/etl_pipelines/src/load/__pycache__/__init__.cpython-310.pyc
-week2/etl_pipelines/src/load/__pycache__/load_batch.cpython-310.pyc
-week2/etl_pipelines/src/load/__pycache__/load_db.cpython-310.pyc
-week2/etl_pipelines/src/load/__pycache__/load_files.cpython-310.pyc
-week2/etl_pipelines/src/transform/__pycache__/__init__.cpython-310.pyc
-week2/etl_pipelines/src/transform/__pycache__/transform_batch.cpython-310.pyc
-week2/etl_pipelines/src/transform/__pycache__/transform_db.cpython-310.pyc
-week2/etl_pipelines/src/transform/__pycache__/transform_files.cpython-310.pyc
+
+__pycache__/
+*.pyc
+
+# airflow related directories:
+week5/pipelines_automation/airflow_running_env
+
+
+
+
+
+
+# week2/etl_pipelines/src/__pycache__/__init__.cpython-310.pyc
+# week2/etl_pipelines/src/extract/__pycache__/__init__.cpython-310.pyc
+# week2/etl_pipelines/src/extract/__pycache__/extract_batch.cpython-310.pyc
+# week2/etl_pipelines/src/extract/__pycache__/extract_db.cpython-310.pyc
+# week2/etl_pipelines/src/extract/__pycache__/extract_files.cpython-310.pyc
+# week2/etl_pipelines/src/load/__pycache__/__init__.cpython-310.pyc
+# week2/etl_pipelines/src/load/__pycache__/load_batch.cpython-310.pyc
+# week2/etl_pipelines/src/load/__pycache__/load_db.cpython-310.pyc
+# week2/etl_pipelines/src/load/__pycache__/load_files.cpython-310.pyc
+# week2/etl_pipelines/src/transform/__pycache__/__init__.cpython-310.pyc
+# week2/etl_pipelines/src/transform/__pycache__/transform_batch.cpython-310.pyc
+# week2/etl_pipelines/src/transform/__pycache__/transform_db.cpython-310.pyc
+# week2/etl_pipelines/src/transform/__pycache__/transform_files.cpython-310.pyc
