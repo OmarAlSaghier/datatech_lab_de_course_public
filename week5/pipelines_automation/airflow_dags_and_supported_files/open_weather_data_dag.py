@@ -34,13 +34,20 @@ extract_task = PythonOperator(
     dag=dag
 )
 
-spark_file_path = '/home/oalsaghier/Documents/datatech_labs/datatech_lab_de_course_public/week5/pipelines_automation/transform_weather_data.py'
+spark_file_path = '/home/oalsaghier/Documents/datatech_labs/datatech_lab_de_course_public/week5/pipelines_automation/airflow_dags_and_supported_files/pyspark_transform_weather_data.py'
 transform_task = BashOperator(
     task_id='transform_weather_data',
     bash_command=f'spark-submit --master yarn --deploy-mode client {spark_file_path}',
     dag=dag
 )
 
+hive_query = 'select * from weather_db.weather_data'
+load_task = BashOperator(
+    task_id='read_from_hive',
+    bash_command=f"hive -e '{hive_query}'",
+    dag=dag
+)
+
 
 # task orchestration:
-extract_task >> transform_task
+extract_task >> transform_task >> load_task

@@ -54,5 +54,7 @@ airflow users create \
 echo "Starting Airflow scheduler..."
 nohup airflow scheduler > scheduler.log 2>&1 &
 
+mkdir dags
+
 echo "Airflow setup complete. Access the web UI at http://localhost:8080"
 echo "Login with 'airflow' username and 'admin' password"
